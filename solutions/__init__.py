@@ -5,6 +5,7 @@ from . import day_2
 from . import day_3
 from . import day_4
 from . import day_5
+from . import day_6
 
 
 day_to_module = {
@@ -12,5 +13,6 @@ day_to_module = {
     2 : day_2,
     3 : day_3,
     4 : day_4,
-    5 : day_5
+    5 : day_5,
+    6 : day_6
 }
