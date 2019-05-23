@@ -29,8 +29,8 @@ def main():
 
     data = module.preprocess(data)
 
-    print('Day {}, part 1 solution -> {}'.format(day, module.part1(data)))
-    print('Day {}, part 2 solution -> {}'.format(day, module.part2(data)))
+    print('Day {}, part 1 solution -> {}'.format(day, module.part1(data.copy())))
+    print('Day {}, part 2 solution -> {}'.format(day, module.part2(data.copy())))
 
 if __name__ == '__main__':
     main()
